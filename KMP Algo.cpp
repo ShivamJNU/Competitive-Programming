@@ -1,3 +1,5 @@
+// The below code is the edited version of the KMP Algorithm's code available on the GeeksForGeeks Website.
+
 vector<int> Glob;
 
 void computeLPSArray(vector<int> &pat, int M, vector<int> &lps)
@@ -53,7 +55,7 @@ void KMPSearch(vector<int> &pat, vector<int> &txt)
 
         if (j == M)
         {
-            cout << "Found pattern at index " << i - j << endl;
+            // cout << "Found pattern at index " << i - j << endl;
 
             Glob.push_back((i - j));
 
