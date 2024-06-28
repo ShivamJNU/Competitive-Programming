@@ -61,3 +61,13 @@ public:
         return maxa;
     }
 };
+
+// Adding the below code snippet might make Djikstra Algo faster in some cases, (we avoid using it in case when visiting atleast k nodes before is compulsion):
+/*
+if (p1.first > distance[p1.second])
+{
+    vis[p1.second] = 1;
+    s1.erase(it);
+    continue;
+}
+*/
