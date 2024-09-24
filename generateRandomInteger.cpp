@@ -1,4 +1,4 @@
-// Code Snippet to generate random integer between 0 and i:
+// Code Snippet to generate random integer between 0 and i (i included):
 
 mt19937 rng(chrono::steady_clock::now().time_since_epoch().count());
 #define rand(i) uniform_int_distribution<int>(0, i)(rng)
