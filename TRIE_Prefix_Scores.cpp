@@ -9,7 +9,10 @@ public:
             Node* links[26];
         };
 
+// The root of the Trie must be declared.
         Node* root;
+
+// The constructor for the Trie is optional, we can directly declare the initial value of root as new Node(), in the above line.
         Trie() { root = new Node(); }
 
         void insert(string& word) {
