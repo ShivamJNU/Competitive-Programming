@@ -1,3 +1,6 @@
+// Parent of all the nodes belonging to the same graph component becomes the same after we run a fianl find(i) loop for all the nodes in the graph.
+// Refer this problem: https://leetcode.com/problems/minimum-cost-walk-in-weighted-graph
+
 #include <bits/stdc++.h>
 using namespace std;
 
